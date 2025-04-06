@@ -11,7 +11,7 @@ Ele apresenta uma interface moderna com troca dinâmica de cores e imagens.
 
 ## 🚀 Como visualizar
 Você pode acessar o site publicado aqui:  
-👉 [https://seu-usuario.github.io/my-starbucks/](https://r3-coder.github.io/my-starbucks/)
+👉 [https://r3-coder.github.io/my-starbucks/](https://r3-coder.github.io/my-starbucks/)
 
 ## 📷 Imagens
 As imagens utilizadas (copos, logo e miniaturas) devem estar na pasta `/img`.
