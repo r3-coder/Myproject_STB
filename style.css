@@ -1,5 +1,5 @@
-*{
-
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,44 +7,41 @@
 }
 
 body {
-
-padding-top: 20px;
-padding-right: 100px;
-padding-left: 100px;
-
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    overflow-x: hidden; /* Impede rolagem horizontal */
 }
 
 .conteudo {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
 }
-.textos{
 
-width: 600px;
+.textos {
+    width: 600px;
 }
+
 h2 {
-
-color:#333;
-font-size: 60px;
-font-weight: bold;
+    color: #333;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-span{
-
+span {
     color: #017143;
     font-size: 70px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
 button {
-
-    background: #017143; 
+    background: #017143;
     color: white;
     border-radius: 40px;
     border: none;
@@ -52,51 +49,47 @@ button {
     padding: 10px;
     margin-top: 20px;
     transition: 0.5s;
-    
 }
 
-button:hover{
-
+button:hover {
     background-color: #01bc6e;
 }
 
-.imagem{
-
+.imagem {
     width: 600px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 250px;
-
+    margin-top: -80px;
 }
 
-.menu{
-
+.menu {
     display: flex;
     justify-content: center;
-
+    margin-top: -65px;
 }
 
-.botao-menu{
-
-
+.botao-menu {
     width: 60px;
     cursor: pointer;
 }
 
-.circulo{
-
+.circulo {
     background: #017143;
-    height: 100%;
-    width: 100%;
+    width: 700px;
+    height: 700px;
     position: absolute;
-    top: 0;
-    left: 0;
-    clip-path: circle(600px at right 800px);
+    top: -140px;
+    right: -200px;
+    border-radius: 51%;
     z-index: -1;
+    transition: background 0.5s;
+    overflow: hidden;
 }
-.logo{
+
+.logo {
     width: 80px;
 }
-.imagem-copo{
+
+.imagem-copo {
     width: 340px;
 }
